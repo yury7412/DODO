@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body::-webkit-scrollbar {
+    width: 5px;              /* ширина scrollbar */
+  }
+  body::-webkit-scrollbar-track {
+    background: #EEEEEE;        /* цвет дорожки */
+  }
+  body::-webkit-scrollbar-thumb {/* цвет плашки */
+    border-radius: 60px;       /* закругления плашки */
+    border: 3px solid #F26629;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+    background-color: #040404;
+}
+
+.container{
+    padding-right: 54px;
+    padding-left: 54px;
+    color: aliceblue;
+    padding-top: 39px;
+}
+
+.bootmom_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-header h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+.account{
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.left_account h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.menu ul{
+    display: flex;
+    gap: 15px;
+    padding-top: 45px;
+}
+
+.btn_active{
+    background: #BEBCBC;
+    border-radius: 5px 5px 0px 0px;
+    padding: 8px 13px;
+    color: #FFFFFF;
+}
+
+.btn_active:hover{
+    background: #484848;
+    transition: .3s ease-in;
+}
+
+.btn_active a{
+    color: #FFFFFF;
+}
+
+.btn_main{
+    background: #484848;
+    border-radius: 5px 5px 0px 0px;
+    padding: 8px 13px;
+}
+
+.btn_main a{
+    color: #FFFFFF;
+}
+
+.btn_main:hover{
+    background: #BEBCBC;
+    transition: .3s ease-in;
+}
+
+.title_h1{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    margin-top: 26px;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse; 
+    color: black;
+    margin-top: 81px;
+    text-align: center;
+}
+
+.table tr{
+    height: 85px;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+    padding-top: 15px;
+    
+}
+
+.p_time{
+    background: linear-gradient(0deg, #D2FFD4, #D2FFD4), linear-gradient(0deg, #D2FFD4, #D2FFD4), #D2FFD4;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 12px 19px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 22px;
+}
+
+.p_time_red{
+    background: linear-gradient(0deg, #FFBEBA, #FFBEBA), linear-gradient(0deg, #D2FFD4, #D2FFD4), #D2FFD4;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 12px 19px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 24px;
+    margin-bottom: 22px;
+}
+
+.no_time{
+    background: #B1BABB;
+}

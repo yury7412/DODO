@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(180deg,#d8dde6,#c3cad6) fixed;
+}
+
+.container{
+    max-width: 536px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 24px 60px rgb(0 10 28 / 15%);
+    box-sizing: border-box;
+    margin: 40px auto auto;
+    padding: 40px 40px 50px;
+    position: relative;
+    width: 332px;
+}
+
+
+.logo{
+    text-align: center;
+}
+
+.form{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap ;
+    gap: 25px;
+}
+
+
+.form_log{
+    margin-top: 50px;
+}
+
+input, .pizza{
+    border-radius: 5px;
+    border: 0;
+    padding: 15px 25px;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 1px solid #ededed;
+    transition: border-color .2s;
+    border-bottom: 1px solid #ededed;
+    outline: none;
+    border-radius: 0;
+}
+
+input:focus {
+    border-color: #007aff;
+    border-radius: 0;
+}
+
+.option {
+    font-weight: normal;
+    display: block;
+    white-space: nowrap;
+    min-height: 1.2em;
+    padding: 0px 2px 1px;
+}
+
+.card__row_big-margin-bottom {
+    margin-bottom: 28px;
+}
+
+.btn{
+    background: #3DA1D9;
+    border-radius: 5px;
+    padding: 12px 103px;
+    color: #fff;
+}
+
+.btn:hover{
+    background-color: #0075b9;
+    transition: .3s ease-in;
+}
